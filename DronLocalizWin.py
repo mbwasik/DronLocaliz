@@ -48,6 +48,7 @@ def main(r, h):
                 else:
                     file_name = SRTfiles[file_number]
                     print(f' wybrano {file_name}')
+                    print(f' wybrany został plik {file_name}')
                     if os.path.isfile(file_name + '_copy'):  
                         shutil.copy(file_name + '_copy', file_name)  # copy copied file to original SRT file (if exists)
                     else:
