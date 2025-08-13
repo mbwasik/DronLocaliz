@@ -1,4 +1,5 @@
 #dodano komentarz w pierwszej linii
+#teraz w drugiej
 import glob
 import click
 import os
